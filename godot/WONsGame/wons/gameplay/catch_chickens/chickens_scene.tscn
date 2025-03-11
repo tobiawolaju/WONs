@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://ch2ey3qdlnvje"]
+
+[ext_resource type="PackedScene" uid="uid://cttmmr2ccm7s8" path="res://gameplay/catch_chickens/chickens_scene3d.tscn" id="1_ouwaf"]
+[ext_resource type="Texture2D" uid="uid://nxcbpqsdycwp" path="res://assets/UI/JoyBase.png" id="2_38jxa"]
+[ext_resource type="Script" path="res://gameplay/catch_chickens/joystick.gd" id="2_wl8lx"]
+[ext_resource type="Texture2D" uid="uid://c4u5ubhercbuu" path="res://assets/UI/Joystick.png" id="3_ii53n"]
+
+[node name="ChickensScene" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="CanvasLayer"]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="SubViewport" type="SubViewport" parent="CanvasLayer/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="ChickensScene3d" parent="CanvasLayer/SubViewportContainer/SubViewport" instance=ExtResource("1_ouwaf")]
+
+[node name="TouchJoyStick" type="Node2D" parent="CanvasLayer"]
+position = Vector2(81, 85)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/TouchJoyStick"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.5, 2.5)
+
+[node name="Joystick" type="Sprite2D" parent="CanvasLayer/TouchJoyStick/HBoxContainer"]
+texture = ExtResource("3_ii53n")
+script = ExtResource("2_wl8lx")
+
+[node name="JoyBase" type="Sprite2D" parent="CanvasLayer/TouchJoyStick/HBoxContainer"]
+self_modulate = Color(1, 1, 1, 0.356863)
+texture = ExtResource("2_38jxa")

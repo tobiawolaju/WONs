@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b231d4f4ylcdc"
+path="res://.godot/imported/testchicks.obj-f7fbd75139a85d871ffd43c58e9f8895.mesh"
+
+[deps]
+
+files=["res://.godot/imported/testchicks.obj-f7fbd75139a85d871ffd43c58e9f8895.mesh"]
+
+source_file="res://assets/3D/opps/testchicks.obj"
+dest_files=["res://.godot/imported/testchicks.obj-f7fbd75139a85d871ffd43c58e9f8895.mesh", "res://.godot/imported/testchicks.obj-f7fbd75139a85d871ffd43c58e9f8895.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
