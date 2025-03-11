@@ -1,0 +1,49 @@
+.crew-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Font1', sans-serif;
+  }
+  
+  .crew-title {
+    color: #000;
+    font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .crew-intro {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: clamp(1rem, 1.5vw, 1.2rem); /* Responsive font size */
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .crew-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .crew-member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crew-role {
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  .crew-name {
+    color: #555;
+    font-size: 1rem;
+  }
+  

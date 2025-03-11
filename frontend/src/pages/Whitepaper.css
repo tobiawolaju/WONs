@@ -1,0 +1,54 @@
+/* Global container */
+.whitepaper-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Font1', sans-serif;
+  }
+  
+  /* Header */
+  .whitepaper-title {
+    color: #000;
+    font-size: clamp(3.5rem, 5vw, 4rem);
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Sections */
+  .section {
+    margin-top: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Subsection titles */
+  .subsection-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Paragraph styling */
+  .section-text {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+  }
+  
+  /* List styling */
+  .section-list {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    padding-left: 20px;
+  }
+  
+  .section-list li {
+    margin-bottom: 10px;
+  }
+  

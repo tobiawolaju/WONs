@@ -1,0 +1,56 @@
+/* Community Component Styles */
+.community-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Font1', sans-serif;
+  }
+  
+  .community-header {
+    color: #000;
+    font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .community-intro {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: clamp(1rem, 1.5vw, 1.2rem); /* Responsive font size */
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .community-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .community-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: normal;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .discord-link {
+    background-color: #5865F2; /* Discord's branding color */
+  }
+  
+  .discord-link:hover {
+    background-color: #4E59D4;
+  }
+  
+  .twitter-link {
+    background-color: #1DA1F2; /* Twitter's branding color */
+  }
+  
+  .twitter-link:hover {
+    background-color: #1A94E0;
+  }
+  
