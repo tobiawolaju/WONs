@@ -93,27 +93,25 @@ function Home() {
 
         <button 
   style={{
-    width: 'fit-content',
     position: 'absolute',
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    background: 'linear-gradient(135deg, rgb(166, 0, 255), rgb(140, 0, 255), rgba(255, 255, 255, 0))',  // Fixed the gradient string
+    background: 'linear-gradient(135deg, rgb(234, 194, 255), rgb(140, 0, 255), rgba(255, 255, 255, 0))',  // Fixed the gradient string
     backgroundSize: '200%',
     color: "#fff",
     padding: '5px',
     borderRadius: '15px',
-    fontSize: '1.5rem',
+    fontSize: '1.2rem',
     fontWeight: 'bold',
     border: 'none',
     cursor: 'pointer',
-    boxShadow: '0 10px 20px rgba(0, 0, 0, 0.51)',
+    boxShadow: '0 10px 20px rgba(0, 0, 0, 0.14)',
   }}
   className="connectwallet"
 >
   Join Testnet
-  <ConnectButton>
-  </ConnectButton>
+  <ConnectButton/>
 </button>
 
 
