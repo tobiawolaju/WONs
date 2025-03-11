@@ -93,7 +93,7 @@ function Home() {
 
         <button 
         style={{
-            width:'fit-content',
+            width:'fit-70vw',
             position: 'absolute',
             top: '50%',
             left: '50%',
