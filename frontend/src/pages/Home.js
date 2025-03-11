@@ -101,7 +101,7 @@ function Home() {
     background: 'linear-gradient(135deg, rgb(166, 0, 255), rgb(140, 0, 255), rgba(255, 255, 255, 0))',  // Fixed the gradient string
     backgroundSize: '200%',
     color: "#fff",
-    padding: '5px 10px',
+    padding: '5px',
     borderRadius: '15px',
     fontSize: '1.5rem',
     fontWeight: 'bold',
