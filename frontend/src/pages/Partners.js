@@ -6,11 +6,11 @@ class Partners extends React.Component {
     super(props);
     this.state = {
       partners: [
-        { name: 'Monad Blockchain', logo: 'logo.jpg' },
-        { name: 'XYZ Gaming Studios', logo: 'logo.jpg' },
-        { name: 'CryptoTech Ventures', logo: 'logo.jpg' },
-        { name: 'NFT Project 1', logo: 'logo.jpg' },
-        { name: 'NFT Project 2', logo: 'logo.jpg' },
+        { name: 'Monad Blockchain', logo: 'w.png' },
+        { name: 'XYZ Gaming Studios', logo:  'w.png' },
+        { name: 'CryptoTech Ventures', logo:  'w.png'},
+        { name: 'NFT Project 1', logo: 'w.png' },
+        { name: 'NFT Project 2', logo:  'w.png' },
       ],
     };
   }

@@ -93,20 +93,21 @@ function Home() {
 
         <button 
         style={{
+            width:'fit-content',
             position: 'absolute',
             top: '50%',
             left: '50%',
             transform: 'translate(-50%, -50%)',
-            background: 'linear-gradient(135deg,rgba(92, 198, 255, 0),rgb(143, 16, 216),rgba(0, 102, 255, 0)',
+            background: 'linear-gradient(135deg,rgb(81, 0, 255),rgb(81, 0, 255),rgba(255, 255, 255, 0)',
             backgroundSize: '200%',
-            color:"#000",
-            padding: '10px 20px',
-            borderRadius: '20px',
+            color:"#fff",
+            padding: '5px 10px',
+            borderRadius: '15px',
             fontSize: '1.5rem',
             fontWeight: 'bold',
             border: 'none',
             cursor: 'pointer',
-            boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)',
+            boxShadow: '0 10px 20px rgba(0, 0, 0, 0.51)',
           }}
           className="connectwallet"
         >
@@ -124,17 +125,10 @@ function Home() {
       <section>
         <p className="text">
 
-          <strong className="text-heading">28292 NADs</strong>
-          nads are playing
-
-
-      <strong className="text-heading">15262728 Newbies</strong>
-      Just joined the fun 
-
-      <strong className="text-heading">Guess Who</strong>
-      is still waiting for the testnet button to click itseLf.
-
-        </p>
+          <strong className="text-heading">Mint your Avatar</strong>
+          Join the rest of the nads by becoming a nad, get faucet @linktofaucet
+          Mint your Nadvater and Dive into the actions
+          </p>
         </section>
 
       <img
@@ -145,11 +139,10 @@ function Home() {
       <section>
         <p className="text">
 
-          <strong className="text-heading">Thank you for Playing</strong>
-
-<p style={{color:"#00bccc", fontSize:"xx-large"}}> 
-  @keone, @BeNAD,@Borjo,@Miladi,@Bill
-</p>
+          <strong className="text-heading">Backed by</strong>
+Monad
+Base
+ETHFoundation
 </p>
       </section>
     </div>

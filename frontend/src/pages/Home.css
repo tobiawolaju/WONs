@@ -5,9 +5,9 @@
 
 
 body{
-    margin: 0px;
-  padding: 0px;
-  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px; 
+  background: linear-gradient(0deg,rgb(200, 164, 255),rgb(255, 255, 255));
   overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ body{
   }
   
   .black-and-white {
-    width: 90vw;
+    width: 100vw;
     filter: grayscale(100%);
     transition: filter 0.4s ease-in-out;
   }
@@ -53,12 +53,12 @@ body{
   }
   
   .text {
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.72);
     font-size: clamp(1rem, 2vw, 1.5rem);
     margin: 0vw 0 0 10vw;
     text-align: left;
-    width: 80vw;
-    padding: 5px;
+    width: 70vw;
+    padding: 10px;
   }
   
   .text-heading {

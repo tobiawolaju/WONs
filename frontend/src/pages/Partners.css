@@ -31,17 +31,18 @@
   
   .partner-card {
     text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .partner-logo {
     width: 100px;
     height: 100px;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    border-radius: 5%;
+    background-color: rebeccapurple;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
   }
   
   .partner-name {
