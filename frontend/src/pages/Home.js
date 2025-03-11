@@ -99,7 +99,7 @@ function Home() {
     transform: 'translate(-50%, -50%)',
     background: 'linear-gradient(135deg, rgb(234, 194, 255), rgb(140, 0, 255), rgba(255, 255, 255, 0))',  // Fixed the gradient string
     backgroundSize: '200%',
-    color: "#fff",
+    color: "#000",
     padding: '5px',
     borderRadius: '15px',
     fontSize: '1.2rem',

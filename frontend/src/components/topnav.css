@@ -3,10 +3,13 @@
   padding: 10px;
   color: #000000;
   display: flex;
+  width:95%;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   margin: 0;
+  position: fixed;
+  top:0px
 }
 
 /* Navigation Links */
