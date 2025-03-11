@@ -92,31 +92,30 @@ function Home() {
         {/* Play Game Button */}
 
         <button 
-        style={{
-            width:'fit-70vw',
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            background: 'linear-gradient(135deg,rgb(81, 0, 255),rgb(81, 0, 255),rgba(255, 255, 255, 0)',
-            backgroundSize: '200%',
-            color:"#fff",
-            padding: '5px 10px',
-            borderRadius: '15px',
-            fontSize: '1.5rem',
-            fontWeight: 'bold',
-            border: 'none',
-            cursor: 'pointer',
-            boxShadow: '0 10px 20px rgba(0, 0, 0, 0.51)',
-          }}
-          className="connectwallet"
-        >
-          Join Testnet
-          <ConnectButton>
-          
-          </ConnectButton>
-      
-        </button>
+  style={{
+    width: 'fit-content',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    background: 'linear-gradient(135deg, rgb(166, 0, 255), rgb(140, 0, 255), rgba(255, 255, 255, 0))',  // Fixed the gradient string
+    backgroundSize: '200%',
+    color: "#fff",
+    padding: '5px 10px',
+    borderRadius: '15px',
+    fontSize: '1.5rem',
+    fontWeight: 'bold',
+    border: 'none',
+    cursor: 'pointer',
+    boxShadow: '0 10px 20px rgba(0, 0, 0, 0.51)',
+  }}
+  className="connectwallet"
+>
+  Join Testnet
+  <ConnectButton>
+  </ConnectButton>
+</button>
+
 
      
       </div>
