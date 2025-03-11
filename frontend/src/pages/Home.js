@@ -111,7 +111,12 @@ function Home() {
   className="connectwallet"
 >
   Join Testnet
-  <ConnectButton/>
+  <ConnectButton
+   accountStatus={{
+    smallScreen: 'avatar',
+    largeScreen: 'full',
+  }}
+  />
 </button>
 
 
