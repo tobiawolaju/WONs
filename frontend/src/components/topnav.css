@@ -3,14 +3,16 @@
   padding: 10px;
   color: #000000;
   display: flex;
-  width:95%;
+  width:98%;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   margin: 0;
   position: fixed;
   top:0px;
-  z-index: 1000;
+  z-index: 999;
+  background-color: rgba(240, 248, 255, 0.4);
+  border-bottom: solid #ffffff 1px;
 }
 
 /* Navigation Links */

@@ -44,7 +44,10 @@ function Home() {
   return (
     <div className="home-container">
 
-
+<div style={{
+  height:'60px'
+}}>
+</div>
       <h1 className="title">WONs</h1>
       <h2 className="subtitle"></h2>
 
@@ -99,8 +102,7 @@ function Home() {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    background: 'linear-gradient(135deg, rgb(234, 194, 255), rgb(222, 222, 222), rgba(255, 255, 255, 0))',  // Fixed the gradient string
-    backgroundSize: '200%',
+    backgroundColor:'#ffffff',
     color: "#000",
     padding: '5px',
     borderRadius: '15px',
@@ -143,10 +145,8 @@ function Home() {
       <section>
         <p className="text">
 
-          <strong className="text-heading">Backed by</strong>
-Monad
-Base
-ETHFoundation
+          <strong className="text-heading">Community</strong>
+Get in our discord too stay ahead
 </p>
       </section>
     </div>

@@ -18,6 +18,11 @@ class Partners extends React.Component {
   render() {
     return (
       <div className="partners-container">
+        
+<div style={{
+  height:'60px'
+}}>
+</div>
         <h1 className="partners-title">Partners</h1>
         <p className="partners-description">
           We are proud to collaborate with these amazing partners who help bring the World of Nads (WONs) vision to life:

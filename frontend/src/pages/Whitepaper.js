@@ -5,6 +5,11 @@ class Whitepaper extends React.Component {
   render() {
     return (
       <div className="whitepaper-container">
+        
+<div style={{
+  height:'60px'
+}}>
+</div>
         {/* Header Section */}
         <h1 className="whitepaper-title">Whitepaper</h1>
 

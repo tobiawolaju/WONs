@@ -4,6 +4,11 @@ import './Community.css';
 function Community() {
   return (
     <div className="community-container">
+      
+<div style={{
+  height:'60px'
+}}>
+</div>
       {/* Header Section */}
       <h1 className="community-header">Community</h1>
 
